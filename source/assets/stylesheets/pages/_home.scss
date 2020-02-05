@@ -3,36 +3,34 @@
 }
 
 .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg.jpeg);
   min-height: 100vh;
   background-size: cover;
   background-position: center;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
-  // .logo-wrapper {
-  //   top: 60%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   position: absolute;
-  // }
+  .logo-wrapper {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  // .logo-banner {
-  //   width: 150px;
-  //   height: auto;
-  // }
+  #title {
+    letter-spacing: 0.1em;
+    color: $light-gray;
+    font-size: 40px;
+    margin: 10px;
+  }
 
-  // #slogan {
-  //   letter-spacing: 0.1em;
-  //   color: $white;
-  //   font-size: 40px;
-  //   padding-top: 10px;
-  // }
-}
-
-.opaque-bg {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 380px;
-  padding: 1px 1px 5px 5px;
+  #slogan {
+    letter-spacing: 0.05em;
+    color: $light-gray;
+    font-size: 25px;
+    margin: 10px;
+  }
 }
 
 @media (max-device-width: 812px) {

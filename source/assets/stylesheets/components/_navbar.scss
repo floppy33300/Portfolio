@@ -1,0 +1,36 @@
+/* navbar start */
+.nav-header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.header-links {
+  width: 450px;
+  display: flex;
+  padding: 10px;
+}
+
+.header-links li {
+  display: flex;
+}
+
+// Menu phone device //
+.fa-bars {
+  color: #FF6363;
+  font-size: 40px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+// end //
