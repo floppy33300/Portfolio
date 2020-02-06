@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
 
-  .logo-wrapper {
+  .title-wrapper {
     position: absolute;
     top: 25%;
     display: flex;
@@ -23,6 +23,7 @@
     color: $light-gray;
     font-size: 40px;
     margin: 10px;
+    text-align: center;
   }
 
   #slogan {
@@ -30,6 +31,7 @@
     color: $light-gray;
     font-size: 25px;
     margin: 10px;
+    text-align: center;
   }
 }
 
@@ -43,7 +45,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .banner {
-    .logo-wrapper {
+    .title-wrapper {
       top: 65%;
     }
   }
