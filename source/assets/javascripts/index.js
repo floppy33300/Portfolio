@@ -1,7 +1,7 @@
 import { toggleNav } from './components/mobile_nav';
 
 // Sidenav
-const sidenavTriggers = document.querySelectorAll('.sidenav-trigger');
+const sidenavTriggers = document.querySelectorAll('#nav-icon');
 const sideNavLinks = document.querySelectorAll('.sidenav-link');
 
 sidenavTriggers.forEach(function(trigger) {
