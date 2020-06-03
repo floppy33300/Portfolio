@@ -12,6 +12,7 @@ body {
   font-family: $body-font;
   color: $black;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -26,8 +27,8 @@ ul {
   padding: 0px;
 }
 
-a,
-a:hover {
+.navlink,
+.navlink:hover {
   position: relative;
   transition: 0.5s color ease;
   text-decoration: none;
@@ -35,30 +36,30 @@ a:hover {
 
 }
 
-a:hover {
+.navlink:hover {
   color: #d73444;
 }
 
 
-a:after {
+.navlink:after {
   content: "";
   transition: 0.5s all ease;
   position: absolute;
   right: 0px;
 }
 
-a:after {
+.navlink:after {
   bottom: -0.3em;
 }
 
-a:after {
+.navlink:after {
   height: 5px;
   height: 0.35rem;
   width: 0;
   background: #d73444;
 }
 
-a:hover:after {
+.navlink:hover:after {
   width: 100%;
 }
 

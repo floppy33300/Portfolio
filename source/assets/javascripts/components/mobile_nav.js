@@ -1,3 +1,9 @@
+// $(document).ready(function() {
+//   $('#nav-icon').click(function() {
+//     $(this).toggleClass('open');
+//   });
+// });
+
 const sidenavInner = document.querySelector('.sidenav');
 const { body } = document;
 

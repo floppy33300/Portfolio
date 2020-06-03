@@ -35,18 +35,18 @@
   }
 }
 
-@media (max-device-width: 812px) {
-  .banner {
-    #slogan {
-      font-size: 31px;
-    }
-  }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media (max-width: 768px) {
   .banner {
     .title-wrapper {
-      top: 65%;
+      top: 40%;
+    }
+
+    #slogan {
+      font-size: 20px;
+    }
+
+    #title {
+      font-size: 25px;
     }
   }
 }
